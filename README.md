@@ -1,13 +1,4 @@
-# Homework
 
-using System;
-
-namespace ConsoleApp3
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
             Console.WriteLine("Введите сумму от 1 до 9999");
 
             enter: int enter = Convert.ToInt32(Console.ReadLine());
@@ -242,4 +233,3 @@ namespace ConsoleApp3
             Console.ReadKey();
         }
     }
-}
