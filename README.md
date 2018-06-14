@@ -1,10 +1,6 @@
 # Homework
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp3
 {
@@ -12,10 +8,6 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            //      Задание: Пользователь вводит число от 1 до 9999 (сумму выдачи в банкомате). 
-            //      Необходимо вывести на экран словами введенную сумму и в конце написать название валюты с правильным окончанием.
-            //      Например: 7431 — семь тысяч четыреста тридцать один доллар
-
             Console.WriteLine("Введите сумму от 1 до 9999");
 
             enter: int enter = Convert.ToInt32(Console.ReadLine());
